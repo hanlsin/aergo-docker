@@ -57,6 +57,8 @@ maxanchorcount = "20"
 verifiercount = "2"
 forceresetheight = "0"
 verifyonly = false
+# 1 MB for the size of the return value from execuring a smart contract tx
+maxreturnvaluesize = 1048576
 
 [mempool]
 showmetrics = false
