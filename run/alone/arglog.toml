@@ -1,0 +1,14 @@
+
+#level = "error"
+level = "info"
+#level = "debug"
+formatter = "console"
+#caller = true  # enabling source file and line printer
+
+[contract]
+level = "debug"
+#level = "info"
+
+[statesql]
+level = "debug"
+#level = "info"

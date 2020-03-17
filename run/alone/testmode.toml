@@ -1,0 +1,10 @@
+enabletestmode = true
+
+[consensus]
+enablebp = true
+blockinterval = 1
+
+[rpc]
+netserviceaddr = "0.0.0.0"
+netserviceport = 7845
+
