@@ -1,8 +1,24 @@
-
-Build AERGO docker images what I need.
-
-# Build docker image
-
+# Run a single AERGO node
 ```
-docker build -t hanlsin/aergo:0.0.1 .
+docker run --rm -itd -p 7845:7845 --name=myaergo hanlsin/aergo.isdb:0.1
 ```
+
+# Run a single AERGO Node with interactive mode
+```
+docker run --rm -it -p 7845:7845 --name=myaergo hanlsin/aergo.isdb:0.1 /bin/bash
+$ ./run.sh
+```
+
+# Show and follow logs
+```
+docker logs -f myaergo
+```
+
+# Attach to the AERGO node
+```
+docker attach myaergo
+```
+
+# Detach the container
+Press `Ctrl`+`p`, `Ctrl`+`q`.
+
